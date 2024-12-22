@@ -36,7 +36,7 @@ export default function ContactForm() {
 
         <center>
         <div className="flex justify-between w-64 gap-6 pt-6">
-                        <Link href="https://github.com/Ansharahkhan76"><Image
+                        <Link target="_blank" href="https://github.com/Ansharahkhan76"><Image
                         alt="Github"
                         height={40}
                         width={40}
@@ -44,7 +44,7 @@ export default function ContactForm() {
                         className="rounded-full">
                         </Image></Link>
 
-                        <Link href="https://www.linkedin.com/in/ansharah-khan-25a8162b7"><Image
+                        <Link target="_blank" href="https://www.linkedin.com/in/ansharah-khan-25a8162b7"><Image
                         alt="LinkedIn"
                         height={40}
                         width={40}
@@ -52,7 +52,7 @@ export default function ContactForm() {
                         className="rounded-sm ">
                         </Image></Link>
 
-                        <Link href="mailto:anshrahkhan29@gmail.com"> <Image
+                        <Link target="_blank" href="mailto:anshrahkhan29@gmail.com"> <Image
                         alt="Email"
                         height={40}
                         width={40}
@@ -60,7 +60,7 @@ export default function ContactForm() {
                         className="rounded-full filter grayscale">
                         </Image></Link>
 
-                        <Link href="https://www.instagram.com/_ansharah.khan_"><Image
+                        <Link target="_blank" href="https://www.instagram.com/_ansharah.khan_"><Image
                         alt="Instagram"
                         height={40}
                         width={40}

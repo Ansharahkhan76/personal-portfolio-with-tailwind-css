@@ -35,14 +35,13 @@ function About() {
                     {/* Contact section */}
                     <div className="h-52 border-4 border-black w-full md:w-[calc(33.3333%+24px)] text-center">
                         <p className="text-2xl text-black text-center font-bold">Contact</p>
-                        <p className="pt-4">Email : <b><Link href="mailto:anshrahkhan29@gmail.com">anshrahkhan29@gmail.com</Link></b></p>
-                        <p className="pt-1">Contact : <b><Link href="">03123456789</Link></b></p>
+                        <p className="pt-4">Email : <b><Link target="_blank" href="mailto:anshrahkhan29@gmail.com">anshrahkhan29@gmail.com</Link></b></p>
                         <p className="pt-1"><b>Karachi, Pakistan</b></p>
                         <div className="flex justify-evenly pt-3">
-                            <Link href="https://github.com/Ansharahkhan76"><Image alt="Github" height={40} width={40} src="/github.png" className="rounded-full" /></Link>
-                            <Link href="https://www.linkedin.com/in/ansharah-khan-25a8162b7"><Image alt="LinkedIn" height={40} width={40} src="/linkedin.webp" className="rounded-sm" /></Link>
-                            <Link href="mailto:anshrahkhan29@gmail.com"><Image alt="Email" height={40} width={40} src="/email.jpg" className="rounded-full filter grayscale" /></Link>
-                            <Link href="https://www.instagram.com/_ansharah.khan_"><Image alt="Instagram" height={40} width={40} src="/insta.png" className="rounded-full filter grayscale" /></Link>
+                            <Link target="_blank" href="https://github.com/Ansharahkhan76"><Image alt="Github" height={40} width={40} src="/github.png" className="rounded-full" /></Link>
+                            <Link target="_blank" href="https://www.linkedin.com/in/ansharah-khan-25a8162b7"><Image alt="LinkedIn" height={40} width={40} src="/linkedin.webp" className="rounded-sm" /></Link>
+                            <Link target="_blank" href="mailto:anshrahkhan29@gmail.com"><Image alt="Email" height={40} width={40} src="/email.jpg" className="rounded-full filter grayscale" /></Link>
+                            <Link target="_blank" href="https://www.instagram.com/_ansharah.khan_"><Image alt="Instagram" height={40} width={40} src="/insta.png" className="rounded-full filter grayscale" /></Link>
                         </div>
                     </div>
 

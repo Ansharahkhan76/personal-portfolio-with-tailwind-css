@@ -219,7 +219,7 @@ export default function Projects(){
   </div>
 </section>
 
-    <Link href="https://github.com/Ansharahkhan76"><center>
+    <Link target="_blank" href="https://github.com/Ansharahkhan76"><center>
    <button className="py-4 px-6 rounded-xl bg-black text-white font-semibold">View More Projects on Github</button>
    </center></Link>
 
